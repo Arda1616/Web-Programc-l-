@@ -1,4 +1,4 @@
-# Akilli Gunea Takip ve Enerji izleme Sistemi
+# Akilli Gunes Takip ve Enerji izleme Sistemi
 
 ESP32 tabanli, gunesi LDR sensorleriyle takip eden ve INA219 ile voltaj, 
 akim ve guc olcumu yapan bir sistemdir.
