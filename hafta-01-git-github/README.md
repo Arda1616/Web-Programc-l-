@@ -101,7 +101,7 @@ Mercurial, Subversion (SVN) ve platform olarak GitLab, Bitbucket.
 
 **Dikkat çeken noktalar:** Eklenti tabanlı mimari ve geliştiricilerin kendi dokümantasyon sitesini hızlıca kurabilmesi.
 
-### Genel değerlendirme
+## Genel değerlendirme
 İncelenen üç projede ortak noktalar şunlardır:
 - Üçü de React ve TypeScript/JavaScript tabanlı.
 - Monorepo ve modüler klasör yapısı kullanılıyor.
@@ -109,55 +109,50 @@ Mercurial, Subversion (SVN) ve platform olarak GitLab, Bitbucket.
 
 
 
+# Akıllı Güneş Takip ve Enerji İzleme Sistemi
 
-# Akilli Gunes Takip ve Enerji izleme Sistemi
-
-ESP32 tabanli, gunesi LDR sensorleriyle takip eden ve INA219 ile voltaj, 
-akim ve guc olcumu yapan bir sistemdir.
-Veriler Bluetooth ile Android uygulamasina aktarilir; 
-uygulama canli grafik, gecmis analiz, alarm ve manuel kontrol sunar.
+ESP32 tabanlı, güneşi LDR sensörleriyle takip eden ve INA219 ile voltaj,
+akım ve güç ölçümü yapan bir sistemdir. Veriler Bluetooth ile Android
+uygulamasına aktarılır; uygulama canlı grafik, geçmiş analiz, alarm ve
+manuel kontrol sunar.
 
 ## Özellikler
-- LDR ile otomatik gunes takibi ve servo motor surusu
-- IINA219 ile voltaj / akim / guc olcumu
-- Bluetooth (HC-05 / BLE) ile telemetri aktarimi
-- Otomatik / manuel mod gecisi
-- Yerel SQLite veritabani, gecmisveri analizi ve alarmlar
+- LDR ile otomatik güneş takibi ve servo motor sürüşü
+- INA219 ile voltaj / akım / güç ölçümü
+- Bluetooth (HC-05 / BLE) ile telemetri aktarımı
+- Otomatik / manuel mod geçişi
+- Yerel SQLite veritabanı, geçmiş veri analizi ve alarmlar
 
-## Kullanilan Teknolojiler
+## Kullanılan Teknolojiler
 | Katman | Teknoloji |
 |---|---|
-| Donanim | ESP32, INA219, LDR, servo motorlar |
-| iletisim | Bluetooth (HC-05 / BLE) |
+| Donanım | ESP32, INA219, LDR, servo motorlar |
+| İletişim | Bluetooth (HC-05 / BLE) |
 | Mobil | Android Studio, SQLite |
 
 ## Dokümantasyon
-- [Use Case Diyagrami](docs/use-case-diyagrami.pdf)
-- [ER Diyagrami](docs/er-diyagrami.pdf)
-- [Proje Zaman Plani](docs/proje-zaman-plani.png)
-- [Veritabani Semasi](database/schema.sql)
+- [Use Case Diyagramı](docs/use-case-diyagrami.pdf)
+- [ER Diyagramı](docs/er-diyagrami.pdf)
+- [Proje Zaman Planı](docs/proje-zaman-plani.png)
+- [Veritabanı Şeması](database/schema.sql)
 
-## Veritabani
+## Veritabanı
 Tablolar: `Users`, `Devices`, `TelemetryData`, `PanelPositionLogs`, `DeviceAlarms`
 
 ## Proje Takvimi (10 Hafta)
-| Hafta | Asama |
+| Hafta | Aşama |
 |---|---|
-| H1-H2 | Gereksinim analizi, mimari, ER diyagrami |
+| H1-H2 | Gereksinim analizi, mimari, ER diyagramı |
 | H2-H3 | Use case, ESP32 / INA219 / LDR devre kurulumu |
-| H3-H5 | uünes takip algoritmasi, Bluetooth protokolu |
-| H5-H9 | Android arayuzleri, SQLite, grafikler, analiz |
-| H9-H10 | Saha testleri, dokumantasyon, teslim |
+| H3-H5 | Güneş takip algoritması, Bluetooth protokolü |
+| H5-H9 | Android arayüzleri, SQLite, grafikler, analiz |
+| H9-H10 | Saha testleri, dokümantasyon, teslim |
 
 ## Kurulum
-Proje gelistirme asamasindadir. Kurulum adimlari ilerleyen haftalarda eklenecektir.
+Proje geliştirme aşamasındadır. Kurulum adımları ilerleyen haftalarda eklenecektir.
 
-## Gelistirici
-Ad Soyad: Arda KARATAS  
-Ogrenci No: 256001046
-
-
----
+## Geliştirici
+Ad Soya: Arda KARATAŞ - Öğrenci No: 256001046
 
 ## Kaynaklar
 - https://git-scm.com/doc
@@ -165,3 +160,4 @@ Ogrenci No: 256001046
 - Yukarıdaki üç projenin GitHub sayfaları,
 - Yapay zeka desteği
 -  www.youtube.com/watch?v=FMHPkdqN1axM&list=PL9eS3cByBEQyakhlEb5zOsoh_SO-N08eL
+-  https://www.youtube.com/watch?v=I_fL8sWjJgE
