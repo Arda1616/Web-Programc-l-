@@ -1,0 +1,14 @@
+# Android Studio
+.gradle/
+build/
+local.properties
+.idea/
+*.apk
+
+# Arduino / PlatformIO
+.pio/
+.vscode/
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
